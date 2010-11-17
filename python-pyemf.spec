@@ -13,7 +13,7 @@ Group:		Development/Python
 Url:		http://pyemf.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
-%py_requires -d
+BuildRequires:	python-devel
 
 %description
 pyemf is a pure python module that provides bindings for an ECMA-234
@@ -31,6 +31,7 @@ more importantly, natively supported by the OpenOffice suite of tools.
 %clean
 %__rm -rf %{buildroot}
 
-%files -f FILE_LIST
+%files
 %defattr(-,root,root)
 %doc ChangeLog LICENSE README examples/
+%py_puresitedir/*
