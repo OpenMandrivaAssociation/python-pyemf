@@ -35,3 +35,14 @@ more importantly, natively supported by the OpenOffice suite of tools.
 %defattr(-,root,root)
 %doc ChangeLog LICENSE README examples/
 %py_puresitedir/*
+
+
+%changelog
+* Wed Nov 17 2010 Funda Wang <fwang@mandriva.org> 2.0.0-1mdv2011.0
++ Revision: 598279
+- rebuild for py2.7
+
+* Sun Jan 10 2010 Lev Givon <lev@mandriva.org> 2.0.0-1mdv2010.1
++ Revision: 488867
+- import python-pyemf
+
