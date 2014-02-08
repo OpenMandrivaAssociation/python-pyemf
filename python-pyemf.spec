@@ -1,7 +1,7 @@
 %define module	pyemf
 %define name	python-%{module}
 %define version 2.0.0
-%define release %mkrel 1
+%define release 2
 
 Summary:	Pure Python Enhanced Metafile Library
 Name:		%{name}
