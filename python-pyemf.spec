@@ -3,7 +3,7 @@
 Summary:	Pure Python Enhanced Metafile Library
 Name:		python-%{module}
 Version:	2.0.0
-Release:	5
+Release:	6
 License:	LGPLv2.1
 Group:		Development/Python
 Url:		http://pyemf.sourceforge.net/
