@@ -9,7 +9,7 @@ Group:		Development/Python
 Url:		http://pyemf.sourceforge.net/
 Source0:	%{module}-%{version}.tar.gz
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python2)
 
 %description
 pyemf is a pure python module that provides bindings for an ECMA-234
@@ -21,9 +21,9 @@ more importantly, natively supported by the OpenOffice suite of tools.
 %setup -qn %{module}-%{version}
 
 %install
-%__python setup.py install --root=%{buildroot} --record=FILE_LIST
+%{__python2} setup.py install --root=%{buildroot} --record=FILE_LIST
 
 %files
 %doc ChangeLog LICENSE README examples/
-%{py_puresitedir}/*
+%{py2_puresitedir}/*
 
