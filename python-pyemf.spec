@@ -6,7 +6,7 @@ Version:	2.0.0
 Release:	12
 License:	LGPLv2.1
 Group:		Development/Python
-Url:		http://pyemf.sourceforge.net/
+Url:		https://pyemf.sourceforge.net/
 Source0:	%{module}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	pkgconfig(python2)
